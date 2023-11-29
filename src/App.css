@@ -3,7 +3,7 @@ html {
 }
 
 button, input {
-	margin: 1px 5px;
+	margin: 5px 5px;
 	padding: 7px 35px;
 	font-size: 16px;
 	cursor: pointer;

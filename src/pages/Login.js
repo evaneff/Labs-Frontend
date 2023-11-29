@@ -7,7 +7,6 @@ function Login() {
     
     const routeChange = () => {
         navigate('/learner-dashboard');
-
     }
 
     return (
@@ -18,8 +17,9 @@ function Login() {
                 <input type="text"/>
                 <p>Password: </p> 
                 <input type="password"/>
-                <p></p>
-                <input type="submit" value="Login"/>
+                <div>
+                    <input type="submit" value="Login"/>
+                </div>
             </form>
         </>
     )
